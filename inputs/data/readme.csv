@@ -1,0 +1,385 @@
+Field Name,Question,Values
+Respondent,Primary key - system generated,Integer
+Reached end,system generated,"0 = No
+1 = Yes"
+1.1. Had to temporarily close down or adjust services,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.2. Moved program and service delivery online,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.3. Had to increase hours due to increased demand for programs and services,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.4. Remained closed and unable to offer any programs or services,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.5. Lost funding from program partners or donors,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.6. Lost revenue from user fees,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.7. Had to reduce staff work hours,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.8. Had to lay off employees due to financial constraints,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.9. Hired additional staff,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.10. Lost volunteers,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.11. Had employees that contracted COVID-19,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.12. Had clients that contracted COVID-19,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.13. Developed new partnerships to continue to deliver programs and services,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+1.14. Had to apply to the Canada Emergency Wage Subsidy (CEWS) to maintain staffing levels,1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+"1.15. Ineligible for federal or provincial supports (e.g. Canada Emergency Wage Subsidy, Canada Emergency Business account)",1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"1
+NULL"
+"1.16. Other, please specify",1.  How has your agency been impacted by the COVID-19 pandemic? Please select all that apply.,"freeform text
+NULL"
+"2. Please provide any additional comments on how your agency has been impacted by the COVID-19 pandemic, if not reflected in the previous question.&nbsp &nbsp Please do not provide any personal information in your response.","2.  Please provide any additional comments on how your agency has been impacted by the COVID-19 pandemic, if not reflected in the previous question. Please do not provide any personal information in your response.","freeform text
+NULL"
+3.1.1. Public health guidance and information about COVID-19 - Short-term (0-6 months),"3.1.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Public health guidance and information about COVID-19","1
+NULL"
+3.1.2. Public health guidance and information about COVID-19 - Medium-term (6-18 months),"3.1.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Public health guidance and information about COVID-19","1
+NULL"
+3.1.3. Public health guidance and information about COVID-19 - Long-term (18+ months),"3.1.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Public health guidance and information about COVID-19","1
+NULL"
+3.1.4. Public health guidance and information about COVID-19 - N/A,"3.1.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Public health guidance and information about COVID-19","1
+NULL"
+3.2.1. Workplace modification supports (e.g. plexiglass barriers) - Short-term (0-6 months),"3.2.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Workplace modification supports (e.g. plexiglass barriers)","1
+NULL"
+3.2.2. Workplace modification supports (e.g. plexiglass barriers) - Medium-term (6-18 months),"3.2.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Workplace modification supports (e.g. plexiglass barriers)","1
+NULL"
+3.2.3. Workplace modification supports (e.g. plexiglass barriers) - Long-term (18+ months),"3.2.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Workplace modification supports (e.g. plexiglass barriers)","1
+NULL"
+3.2.4. Workplace modification supports (e.g. plexiglass barriers) - N/A,"3.2.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Workplace modification supports (e.g. plexiglass barriers)","1
+NULL"
+3.3.1. Non-medical cloth masks or personal protective equipment (PPE) - Short-term (0-6 months),"3.3.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Non-medical cloth masks or personal protective equipment (PPE)","1
+NULL"
+3.3.2. Non-medical cloth masks or personal protective equipment (PPE) - Medium-term (6-18 months),"3.3.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Non-medical cloth masks or personal protective equipment (PPE)","1
+NULL"
+3.3.3. Non-medical cloth masks or personal protective equipment (PPE) - Long-term (18+ months),"3.3.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Non-medical cloth masks or personal protective equipment (PPE)","1
+NULL"
+3.3.4. Non-medical cloth masks or personal protective equipment (PPE) - N/A,"3.3.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Non-medical cloth masks or personal protective equipment (PPE)","1
+NULL"
+"3.4.1. Technology supports (e.g. devices, remote meeting technology) - Short-term (0-6 months)","3.4.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Technology supports (e.g. devices, remote meeting technology)","1
+NULL"
+"3.4.2. Technology supports (e.g. devices, remote meeting technology) - Medium-term (6-18 months)","3.4.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Technology supports (e.g. devices, remote meeting technology)","1
+NULL"
+"3.4.3. Technology supports (e.g. devices, remote meeting technology) - Long-term (18+ months)","3.4.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Technology supports (e.g. devices, remote meeting technology)","1
+NULL"
+"3.4.4. Technology supports (e.g. devices, remote meeting technology) - N/A","3.4.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Technology supports (e.g. devices, remote meeting technology)","1
+NULL"
+3.5.1. Funding stabilization or flexibility - Short-term (0-6 months),"3.5.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Funding stabilization or flexibility","1
+NULL"
+3.5.2. Funding stabilization or flexibility - Medium-term (6-18 months),"3.5.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Funding stabilization or flexibility","1
+NULL"
+3.5.3. Funding stabilization or flexibility - Long-term (18+ months),"3.5.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Funding stabilization or flexibility","1
+NULL"
+3.5.4. Funding stabilization or flexibility - N/A,"3.5.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Funding stabilization or flexibility","1
+NULL"
+3.6.1. Additional funding - Short-term (0-6 months),"3.6.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Additional funding","1
+NULL"
+3.6.2. Additional funding - Medium-term (6-18 months),"3.6.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Additional funding","1
+NULL"
+3.6.3. Additional funding - Long-term (18+ months),"3.6.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Additional funding","1
+NULL"
+3.6.4. Additional funding - N/A,"3.6.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Additional funding","1
+NULL"
+3.7.1. Rent or mortgage supports - Short-term (0-6 months),"3.7.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Rent or mortgage supports","1
+NULL"
+3.7.2. Rent or mortgage supports - Medium-term (6-18 months),"3.7.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Rent or mortgage supports","1
+NULL"
+3.7.3. Rent or mortgage supports - Long-term (18+ months),"3.7.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Rent or mortgage supports","1
+NULL"
+3.7.4. Rent or mortgage supports - N/A,"3.7.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Rent or mortgage supports","1
+NULL"
+"3.8.1. Financial supports for businesses and agencies (e.g. wage subsidies, tax relief) - Short-term (0-6 months)","3.8.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Financial supports for businesses and agencies (e.g. wage subsidies, tax relief)","1
+NULL"
+"3.8.2. Financial supports for businesses and agencies (e.g. wage subsidies, tax relief) - Medium-term (6-18 months)","3.8.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Financial supports for businesses and agencies (e.g. wage subsidies, tax relief)","1
+NULL"
+"3.8.3. Financial supports for businesses and agencies (e.g. wage subsidies, tax relief) - Long-term (18+ months)","3.8.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Financial supports for businesses and agencies (e.g. wage subsidies, tax relief)","1
+NULL"
+"3.8.4. Financial supports for businesses and agencies (e.g. wage subsidies, tax relief) - N/A","3.8.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Financial supports for businesses and agencies (e.g. wage subsidies, tax relief)","1
+NULL"
+3.9.1. Access to larger space to accommodate physical distancing requirements - Short-term (0-6 months),"3.9.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Access to larger space to accommodate physical distancing requirements","1
+NULL"
+3.9.2. Access to larger space to accommodate physical distancing requirements - Medium-term (6-18 months),"3.9.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Access to larger space to accommodate physical distancing requirements","1
+NULL"
+3.9.3. Access to larger space to accommodate physical distancing requirements - Long-term (18+ months),"3.9.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Access to larger space to accommodate physical distancing requirements","1
+NULL"
+3.9.4. Access to larger space to accommodate physical distancing requirements - N/A,"3.9.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Access to larger space to accommodate physical distancing requirements","1
+NULL"
+3.10.1. Community coordination support (e.g. City-United Way Community Coordination Plan) - Short-term (0-6 months),"3.10.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Community coordination support (e.g. City-United Way Community Coordination Plan)","1
+NULL"
+3.10.2. Community coordination support (e.g. City-United Way Community Coordination Plan) - Medium-term (6-18 months),"3.10.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Community coordination support (e.g. City-United Way Community Coordination Plan)","1
+NULL"
+3.10.3. Community coordination support (e.g. City-United Way Community Coordination Plan) - Long-term (18+ months),"3.10.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Community coordination support (e.g. City-United Way Community Coordination Plan)","1
+NULL"
+3.10.4. Community coordination support (e.g. City-United Way Community Coordination Plan) - N/A,"3.10.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Community coordination support (e.g. City-United Way Community Coordination Plan)","1
+NULL"
+3.11. Other,"3.11.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Other, please specify","1
+NULL"
+"3.11.1. Other, please specify - Short-term (0-6 months)","3.11.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Other, please specify","1
+NULL"
+"3.11.2. Other, please specify - Medium-term (6-18 months)","3.11.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Other, please specify","1
+NULL"
+"3.11.3. Other, please specify - Long-term (18+ months)","3.11.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Other, please specify","1
+NULL"
+"3.11.4. Other, please specify - N/A","3.11.  Please identify whether your agency needs any of the following supports as the city begins to re-open, as and as we move through recovery and rebuild. For each support you select, please identify whether it is a short-term (0-6 months), medium-term (6-18 months), or long-term (18+ months) priority. If it is not a priority for your agency, please select 'N/A' (Not Applicable).
+Other, please specify","1
+NULL"
+"4. Please identify any additional supports needed for your agency for recovery and rebuild not listed in the question above, and indicate whether they are a short-term, medium-term, or long-term priority.Please do not provide any personal information in your response.","4.  Please identify any additional supports needed for your agency for recovery and rebuild not listed in the question above, and indicate whether they are a short-term, medium-term, or long-term priority.Please do not provide any personal information in your response.","freeform text
+NULL"
+5.1. The health and wellness of employees,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.2. Maintaining cleaning and disinfection measures,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.3. Recruiting talent or staffing availability,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.4. Employee training,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.5. Having enough demand from clients when we reopen,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.6. Childcare for staff,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+5.7. None of the above,"5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","1
+NULL"
+"5.8. Other, please specify","5.  When it comes to your workplace or agency, what are you thinking about as you consider the post-pandemic approach and economic recovery? Please select all that apply.","freeform text
+NULL"
+6.1. Public health guidance and information about COVID-19,6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.2. Workplace modification supports (e.g. plexiglass barriers),6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.3. Non-medical cloth masks or personal protective equipment (PPE),6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+"6.4. Technology supports (e.g. devices, remote meeting technology)",6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.5. Funding stabilization or flexibility,6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.6. Additional funding,6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.7. Rent or mortgage supports,6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+"6.8. Financial supports for businesses and agencies (e.g. wage subsidies, tax relief)",6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.9. Access to larger space to accommodate physical distancing requirements,6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+6.10. Ongoing community coordination support (e.g. City-United Way Community Coordination Plan),6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"1
+NULL"
+"6.11. Other, please specify",6.  What is needed to help your agency prepare for a potential second wave of COVID-19?,"freeform text
+NULL"
+7. What has your agency learned from the COVID-19 response that can inform preparation for a possible second wave of COVID-19? (e.g. importance of funding flexibility to respond quickly or list of essential services) Please do not provide any personal information in your response.,7.  What has your agency learned from the COVID-19 response that can inform preparation for a possible second wave of COVID-19? (e.g. importance of funding flexibility to respond quickly or list of essential services) Please do not provide any personal information in your response.,"freeform text
+NULL"
+8.1. Seniors (70+),"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.2. Isolated persons,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.3. Low-income individuals and families,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.4. Homeless or precariously housed individuals,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.5. Indigenous peoples,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.6. Black Torontonians,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.7. Racialized communities,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+"8.8. Newcomers, refugees, or refugee claimants","8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.9. International students,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.10. Undocumented Torontonians,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.11. Youth,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.12. Women,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.13. LGBTQ2S+ communities,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.14. Residents living in congregate living situations (e.g. rooming houses),"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.15. Persons with disabilities,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+8.16. None of the identified,"8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","1
+NULL"
+"8.17. Other, please specify","8.  Has your agency identified any specific populations that have been particularly vulnerable to the impacts of COVID-19? If so, please select all that apply from the list below.","freeform text
+NULL"
+"9. Given existing long-standing constraints and the potential financial impacts of COVID-19, where do you see an opportunity for the City, other levels of government, and community partners to work differently and to improve programs or services to better serve vulnerable residents?Please do not provide any personal information in your response.","9.  Given existing long-standing constraints and the potential financial impacts of COVID-19, where do you see an opportunity for the City, other levels of government, and community partners to work differently and to improve programs or services to better serve vulnerable residents?Please do not provide any personal information in your response.","freeform text
+NULL"
+12. Do you have any other comments or input that you would like the City to consider in planning for the COVID-19 recovery and rebuild process?Please do not provide any personal information in your response.,12.  Do you have any other comments or input that you would like the City to consider in planning for the COVID-19 recovery and rebuild process?Please do not provide any personal information in your response.,"freeform text
+NULL"
+13. Please provide the first three characters of your agency's postal code:,13.  Please provide the first three characters of your agency's postal code:,"freeform text
+NULL"
+14.1. Arts and culture,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.2. Children's services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.3. Education and research,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.4. Environment,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.5. Employment and training,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.6. Ethno-specific services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.7. Faith-based services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+"14.8. Grants, fundraising, and voluntarism","14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.9. Health and mental health,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.10. Homelessness,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.11. Human and social services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.12. Immigration and settlement,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.13. Indigenous services and supports,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+"14.14. Law, advocacy and politics","14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.15. Sports and recreation,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.16. Social housing,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.17. Seniors programs and services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.18. Youth programs and services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.19. Anti-racist service delivery,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+"14.20. Black, African, Caribbean community services and supports","14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.21. LGBTQ2S+ programs and services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.22. Services and supports for racialized residents,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.23. Services and supports for people with disabilities,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.24. Women's programs and services,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+14.25. Prefer not to answer,"14.  What types of programs or services does your agency provide? Select all that apply.
+","1
+NULL"
+"14.26. Other, please specify","14.  What types of programs or services does your agency provide? Select all that apply.
+","freeform text
+NULL"
+myLabel,15. Do you serve a specific target population?,"No, our service population is universal
+Yes
+Prefer not to answer
+NULL"
+16.1. Women,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.2. Youth,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.3. Seniors (age 65+),16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+"16.4. Indigenous peoples (First Nations, Inuit, Métis)",16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.5. Racialized groups,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.6. Black communities,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+"16.7. Newcomers, immigrants and refugees",16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.8. Undocumented Torontonians,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.9. People with disabilities,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.10. Trans or non-binary people,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+"16.11. Lesbian, gay, bisexual or queer (LGBQ+ people)",16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.12. Two-Spirit people,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.13. People living on low incomes,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.14. Other,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+16.15. Prefer not to answer,16.  Tell us about the specific target population that your agency serves. Please select all that apply:,"1
+NULL"
+17. How many paid employees does your agency have? Please indicate based on usual operations.,17. How many paid employees does your agency have? Please indicate based on usual operations.,"0
+1-5
+6-10
+11-20
+21-100
+Over 100
+Prefer not to answer
+NULL"
+18. What is your agency's annual operating budget?,18. What is your agency's annual operating budget?,"0 - $99,999
+$100,000 - $249,999
+$250,000 - $499,999
+$500,000 - $999,999
+$1,000,000 - $10,000,000
+Over $10,000,000
+Prefer not to answer
+NULL"
+"19. If desired, please provide your Agency Name, which will be used only for the purposes of better understanding the agencies that have participated in the process. Please note, it is optional to identify the Agency Name.","19.  If desired, please provide your Agency Name, which will be used only for the purposes of better understanding the agencies that have participated in the process. Please note, it is optional to identify the Agency Name.","freeform text
+NULL"

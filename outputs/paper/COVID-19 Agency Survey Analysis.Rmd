@@ -1,0 +1,286 @@
+---
+title: "COVID-19 Recovery and Rebuild"
+subtitle: "Public Health Guidance Is the Most Needed Support for Community Agencies to Survive the Second Wave"
+author: "Yujia Wu"
+thanks: "Code and data are available at: https://github.com/yujia-wu/COVID-19_recovery_rebuild---agency_survey_analysis"
+date: "31 January 2021"
+abstract: "COVID-19 has brought unexpected challenges and threats to vulnerable communities of Toronto and community agencies that support vulnerable residents. In this paper, the online survey results of the City’s partner organizations regarding COVID-19 recovery and rebuild were analyzed to understand how these agencies have been affected by the pandemic and what supports they need to be prepared for the second wave. The results indicate that the majority of the agencies that took part in this survey had to temporarily close down or adjust services, and public health guidance is the most needed support for community agencies to survive the second wave."
+output: 
+   bookdown::pdf_document2:
+toc: FALSE
+header-includes: 
+ \usepackage{float}
+ \floatplacement{figure}{H}
+bibliography: references.bib
+biblio-style: "apalike"
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(opendatatoronto)
+library(plyr)
+library(tidyverse)
+library(kableExtra)
+library(bookdown)
+library(ggplot2)
+library(scales)
+```
+
+
+# Introduction
+
+The COVID-19 pandemic affected our lives in significant ways. Not only has it caused a dramatic loss of human life around the world, but it also has posed threats to public health, global economy, and people’s livelihood. Researchers have found that vulnerable populations are at a higher risk for presenting with more severe illness during the pandemic, and inequities further exacerbate the impact of COVID-19 on these populations [@citeAcademicMed]. Community agencies that support vulnerable residents have also been adversely impacted, including revenue loss, office closures, cancellations of programs and services, and significant human resource challenges [@citeDropInNetwork]. 
+
+In order to find out how the community agencies have been affected by the ongoing pandemic and what types of support they need the most to survive the second wave, `R` [@citeR], the `opendatatoronto` package [@citeOpenToronto], the `tidyverse` package [@citeTidyverse], the `ggplot2` package [@citeGgplot2], the `scales` package [@citeScales], and the `plyr` package [@citePlyr] are employed to visualize and analyze a dataset published on Toronto's Open Data Portal. The key features of the dataset and some potential bias of the survey will also be discussed. The `bookdown` package [@citeBookdown], the `tinytext` package [@citeTinytex], and the `kableExtra` package [@citeKableExtra] are utilized to write this paper and create tables.
+
+The remainder of this analysis consists of the following sections: a brief introduction to the source of the data, discussions of the survey and the dataset, graphical representation and analysis of the data, and recommendations for next steps and future research.
+
+
+# Background information and the source of the data
+The dataset used for this analysis is the “Agency Survey Results on COVID-19 Recovery and Rebuild” from the City of Toronto's Open Data Portal. 
+
+To ensure the needs of Toronto communities hardest hit by the pandemic are prioritized through the City's recovery and rebuilding process, the Toronto Office of Recovery and Rebuild (TORR) and the Social Development, Finance and Administration Division (SDFA) conducted an online survey of the City’s partner organizations to seek feedback on the impacts of the COVID-19 pandemic on organizational operations, service delivery, and staff; and to collect opinions on the best practices that could support the City’s service partnership models for pandemic planning [@citeDataWeb]. This survey was open for participation from June 22 to July 31, 2020.
+
+The dataset includes the completed survey results from around 240 respondents, which were collected, processed, and exported from the survey tool [@citeDataWeb]. 
+
+In this particular context, the partner organizations refer to those that are community-based and have the community service partnerships with the City. These agencies joined the Community Services Partnership (CSP) program, in which the City offers funding and grants to help them provide activities that advance City strategic directions and improve social outcomes for vulnerable, marginalized, and high-risk communities [@citeCSP]. The CSP program is managed by the Community Funding Unit in the SDFA [@citeCSPrenewal]. 
+
+*Terms of use: This dataset contains information licensed under the Open Government Licence—Toronto. Users should acknowledge the source of the information and provide a [link](https://open.toronto.ca/open-data-license/) to this licence where possible.*
+
+
+# The survey
+***Population:***
+In general, the TORR was interested in the input from community-based agencies, so the target population includes all community service agencies in Toronto. 
+
+***Frame:***
+The sampling frame include agencies that have the community service partnerships with the City because the SDFA chose them to conduct this survey and they are the source from which a sample was drawn. In this case, the frame is a subset of the target population because not all community-based agencies are in the CSP program. One of the reasons that the SDFA chose the partner agencies could be that it was relatively easy to find and get in touch with them through the list of partner organizations.
+
+***Sample:***
+During the survey period, these partner agencies were invited to participate in this online survey (not mandatory); those who completed and returned the survey are the sample. No additional information about non-response agencies was provided in the description of this survey. This way of sampling is non-probability sampling because every member of the frame was invited (i.e., the chance of being sampled is not based on probability), and the participation of the respondents was voluntary [@citeCourseNotes]. A voluntary response sample may bring some bias to this survey.
+
+***Key features and strengths:***
+The content of the entire survey can be roughly divided into three aspects: basic operational information of each agency, the impacts of the COVID-19 pandemic on these agencies, and vulnerable communities these agencies identified. Each aspect consists of different questions, the responses of which make up most of the variables of this dataset. These variables will be further discussed in the next section. The content of the survey is well organized and structured, and the wording of questions is clear and appropriate (i.e., no leading questions or double-barreled questions).
+
+***Weakness and bias:***
+
+First, whether the partner agencies are representative of the entire target population is questionable. The fact that they are in the CSP program and receive the City’s grants and funding may imply that their objectives and activities align with the City’s strategic directions. But, theoretically speaking, most of the community-based agencies meet this criterion because community services aim at improving social and public welfare. Moreover, because we do not know the total number of Toronto’s community service agencies, it is hard to decide whether the sample size is large enough quantitatively. 
+
+Second, the voluntary response sample of this survey could bring potential response bias. In general terms, respondents volunteer to take part in a survey and share their opinions because the topic interest them or due to the convenience of joining the research study [@citeQuestionPro]. The content of this survey might imply that these agencies would possibly receive additional support or benefit from the City based on the results of this survey. Under this circumstance, the bad situations may be inflated because they would want more benefit from the City—after all, saving money and cutting costs are critical for non-for-profit organizations. Similarly, the self-selected sample of this survey could also bring self-selection bias because the principles of probability sampling were not followed. Moreover, since users of this dataset are not provided with additional information about what happened to non-responders, it is difficult to determine whether their opinions are significantly different from those who took part in this survey. This could have serious impact on the quality of survey results.
+
+It should be pointed out that the discussion of gender, ethnicity, and disability is proper within this context because the City and agencies were seeking ways to support vulnerable communities (i.e., no discriminatory intent).
+
+
+# The dataset
+As mentioned earlier, the variables of this dataset can be further classified based on the content of the survey:
+
+* Operational information about agencies participating in the survey:
+   + Agency name (optional)
+   + Postal code
+   + Number of paid employees
+   + Annual operating budget
+   + Specific target populations
+   + Types of programs or services provide
+* Impacts of the COVID-19 pandemic on these agencies:
+   + How they have been affected by the pandemic in term of their operations, service delivery, and staff
+   + Types of support they need:
+      - Each type is further divided into short, medium, or long term (first wave)
+      - Whether these supports will be needed to prepare for the second wave
+   + Agencies' post-pandemic approach and economic recovery consideration
+* Communities that are vulnerable to the impacts of COVID-19 identified by these agencies
+
+The answers of each question, in either the multiple-choice for free-text form, are listed in this dataset as variables. The value of the choices of a multiple-choice question can be either “null” (not selected) or “1” (selected). Respondents can select more than one choice for most of the questions. If a respondent selected the choice “others,” they could then input some free texts into the next field to specify their opinions and ideas.
+
+Because this dataset has incomplete records, a variable called “reached end” (0 = No, 1 = Yes) was added to indicate whether a respondent finished the survey or not. There are around 240 respondents completed this survey, which is consistent with the number given in the description of this survey on the Open Data Portal. The incomplete responses will be removed in the data cleaning process. In addition, each respondent was given a respondent number that serves as the primary key of this dataset. The respondent number begins with 18 because 1 to 17 were test records and were removed [@citeDataWeb]. Offensive language, personal information, and responses that may fall into the “offensive speech” category upon contextual review have also been removed to comply with the requirements of Toronto's Open Government Licence [@citeDataWeb]. 
+
+Besides, this dataset has an accompanying “readme” excel file that gives users more information about the content of this survey and the variables of this dataset.
+
+
+```{r download_data, echo=FALSE}
+#### To download the dataset, please follow the steps in "00_agency_survey_dataimport.R" file
+```
+
+```{r datacleaning, echo=FALSE}
+
+# Read the dataset
+raw_data <- read.csv('agency_survey_rawdata.csv')
+
+#### Get valid results ####
+# Change the data type of the column "Reached.end" to factor because the values do not have numeric meaning
+raw_data$Reached.end <- as.factor(raw_data$Reached.end)
+
+# Remove incomplete survey results.
+valid_results <-
+   raw_data %>% 
+   filter(Reached.end == "1")
+
+
+#### Keep variables related to the impact of COVID-19 on community agencies ####
+# 1. Select relevant columns 
+impact_raw <- 
+   valid_results %>% 
+   select(3:17) # we know these are the columns we want by looking at the dataset and the readme file
+
+# 2. Rename the variables because the original titles are too long
+impact <-
+   impact_raw %>% 
+   rename(close_down_adjust_services = X1.1..Had.to.temporarily.close.down.or.adjust.services,
+          moved_online = X1.2..Moved.program.and.service.delivery.online,
+          increased_hours = X1.3..Had.to.increase.hours.due.to.increased.demand.for.programs.and.services,
+          remained_closed = X1.4..Remained.closed.and.unable.to.offer.any.programs.or.services,
+          lost_funding = X1.5..Lost.funding.from.program.partners.or.donors,
+          lost_revenue = X1.6..Lost.revenue.from.user.fees,
+          reduce_staff_hours = X1.7..Had.to.reduce.staff.work.hours,
+          laid_off_employees = X1.8..Had.to.lay.off.employees.due.to.financial.constraints,
+          hired_more_staff = X1.9..Hired.additional.staff,
+          lost_volunteers = X1.10..Lost.volunteers,
+          employees_covid = X1.11..Had.employees.that.contracted.COVID.19,
+          clients_covid = X1.12..Had.clients.that.contracted.COVID.19,
+          new_partnerships = X1.13..Developed.new.partnerships.to.continue.to.deliver.programs.and.services,
+          applied_emergency_wage = X1.14..Had.to.apply.to.the.Canada.Emergency.Wage.Subsidy..CEWS..to.maintain.staffing.levels,
+          gov_support_ineligible = X1.15..Ineligible.for.federal.or.provincial.supports..e.g..Canada.Emergency.Wage.Subsidy..Canada.Emergency.Business.account.
+          )
+
+# 3. Replace NA values with 0s; Change data type
+impact[is.na(impact)] <- 0
+
+impact <- impact %>% mutate_if(is.numeric, as.factor)
+
+# 4. Count the frequency of each type of impact voted by the respondents
+# inspired by code on https://sarahleejane.github.io/learning/r/2014/09/15/frequency-of-a-variable-per-column-with-R.html
+impact_table <- ldply(impact, function(c) sum(c=="1"))
+
+# 5. Rename the variables in impact_table because they are not informative 
+impact_table <-
+   impact_table %>% 
+   dplyr::rename(impact_types = .id, frequency = V1)
+
+
+
+#### Keep variables related to the support required by community agencies for the second wave of COVID-19 ####
+
+# 1. Select relevant columns 
+sec_support_raw <-
+   valid_results %>% 
+   select(74:83) # we know these are the columns we want by looking at the dataset and the readme file
+
+# 2. Rename the variables because the original titles are too long
+sec_support <-
+   sec_support_raw %>% 
+   dplyr::rename(health_guide = X6.1..Public.health.guidance.and.information.about.COVID.19,
+          workplace_modif = X6.2..Workplace.modification.supports..e.g..plexiglass.barriers.,
+          PPE = X6.3..Non.medical.cloth.masks.or.personal.protective.equipment..PPE.,
+          tech_support = X6.4..Technology.supports..e.g..devices..remote.meeting.technology.,
+          funding_stab_flex = X6.5..Funding.stabilization.or.flexibility,
+          add_funding = X6.6..Additional.funding,
+          rent_morg_support = X6.7..Rent.or.mortgage.supports,
+          financial_support = X6.8..Financial.supports.for.businesses.and.agencies..e.g..wage.subsidies..tax.relief.,
+          larger_space = X6.9..Access.to.larger.space.to.accommodate.physical.distancing.requirements,
+          comm_coordntn = X6.10..Ongoing.community.coordination.support..e.g..City.United.Way.Community.Coordination.Plan.,
+          )
+
+# 3. Replace NA values with 0s; Change data type
+sec_support[is.na(sec_support)] <- 0
+
+sec_support <- sec_support %>% mutate_if(is.numeric, as.factor)
+
+# 4. Count the frequency of each type of support voted by the respondents
+support_table <- ldply(sec_support, function(c) sum(c=="1"))
+
+# 5. Rename the variables in support_table because they are not informative
+support_table <-
+   support_table %>% 
+   dplyr::rename(support_types = .id, frequency = V1)
+```
+
+
+```{r table1, echo = FALSE}
+#### Create a table for COVID-19 impact ####
+# create a new column to the impact_table dataframe showing the percentage of impacts voted by respondents
+impact_table$percentage <- with(impact_table, frequency/nrow(impact)) %>% scales::percent()
+
+# sort the dataframe by percentage
+impact_table <- impact_table[order(impact_table$frequency, decreasing = TRUE), ]
+
+# create a table (will show up in the pdf file)
+knitr::kable(impact_table, caption = 'How community agencies have been affected by COVID-19', row.names = FALSE)
+
+```
+
+
+```{r bar1, fig.cap="How community agencies have been affected by COVID-19", echo = FALSE, fig.height=6, out.width="80%"}
+#### Create a bar chart for impact of COVID-19 on community agencies ####
+impact_bar <-
+   ggplot(impact_table, aes(x = impact_types, y = frequency)) +
+   geom_bar(stat = 'identity', fill = '#85A9D2') +
+   # label the bars. Code got from http://www.sthda.com/english/wiki/ggplot2-barplots-quick-start-guide-r-software-and-data-visualization
+   geom_text(aes(label=frequency), vjust=-0.3, size=3.5) + 
+   labs (x = "Types of impact",
+         y = "Number of agencies",
+         title = "How community agencies have been affected by COVID-19",
+         caption = "Source: 'Agency Survey Results on COVID-19 Recovery And Rebuild' from the City of Toronto's Open Data Portal.")
+
+# rotate the x-axis labels. Code got from https://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2
+# change the text size of x and y axis and the title
+impact_bar + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+   theme(axis.text=element_text(size=10), axis.title=element_text(size=10,face="bold"), plot.title = element_text(size=12))
+
+```
+
+
+```{r table2, echo = FALSE}
+#### Create a table for support types ####
+# create a new column to the support_table dataframe showing the percentage of support voted by respondents
+support_table$percentage <- with(support_table, frequency/nrow(sec_support)) %>% scales::percent()
+
+# sort the dataframe by percentage
+support_table <- support_table[order(support_table$frequency, decreasing = TRUE), ]
+
+# create a table (will show up in the pdf file)
+knitr::kable(support_table, caption = 'Support that agencies need to survive the second wave', row.names = FALSE)
+
+```
+
+
+```{r bar2, fig.cap="Supports that agencies need to survive the second wave", echo = FALSE, fig.height=6, out.width="80%"}
+#### Create a bar chart for types of support needed for the second wave ####
+support_bar <-
+   ggplot(support_table, aes(x = support_types, y = frequency)) +
+   geom_bar(stat = 'identity', fill = '#AAD1B3') +
+   geom_text(aes(label=frequency), vjust=-0.3, size=3.5) + 
+   labs (x = "Types of support",
+         y = "Number of agencies",
+         title = "Supports that community agencies need for the second wave",
+         caption = "Source: 'Agency Survey Results on COVID-19 Recovery And Rebuild' from the City of Toronto's Open Data Portal.")
+
+support_bar + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+   theme(axis.text=element_text(size=10), axis.title=element_text(size=10,face="bold"), plot.title = element_text(size=12))
+
+```
+
+\begin{equation}
+x=\frac{f}{n}\cdot 100\% (\#eq:percentage)
+\end{equation}
+
+# Data visualization and discussion
+Considering that the main purpose of this paper is to find out how the community agencies have been affected by the pandemic and what kinds of support they need to prepare for the second wave, only relevant data will be utilized for data visualization and discussion. In addition, the free-form text data will not be analyzed. The analysis of these data usually involves text analytics, such as natural language processing or word cloud. These text analytic approaches will not be covered in this paper.
+
+Table \@ref(tab:table1) shows how COVID-19 has affected partner organizations in different ways. There are more than 70% of the respondents had to temporarily close down or adjust services due to the pandemic. Over 60% of the agencies moved their programs and services online, and almost half lost volunteers. There were only about 15% of organizations remained closed and unable to offer any programs or services. It is worth noting that a respondent could select more than one impact; therefore, there can be overlaps of agencies among different types of impacts. In table \@ref(tab:table1) and table \@ref(tab:table2), the percentage (x) of each row represents the proportion of the frequency (f) (i.e., the number of agencies that selected that choice) to the sample size (n). It can be calculated using equation \@ref(eq:percentage). Figure \@ref(fig:bar1) is a bar chart visualizes the data. Similarly, Table \@ref(tab:table2) and figure \@ref(fig:bar2) present the supports that these agencies need to prepare for the second wave. "Public health guidance and information about COVID-19" is the most needed support, being voted by about 85% of the respondents. In addition, the majority of the respondents (around 80%) believed that "non-medical cloth masks or personal protective equipment (PPE)" and "funding stabilization or flexibility" would be helpful for them to prepare for the second wave of COVID-19. In contrast, only about 36% of respondents needed rent or mortgage supports.
+
+This paper only used a subset of this dataset to perform data visualization and analysis. Future research could focus on other topics, for example, what specific populations did community agencies identified as being particularly vulnerable to the impacts of COVID-19? Are these "identified populations” related to the agencies’ target populations? What are the programs or services that these agencies provide? Is there any correlation between the types of services and the supports needed? Text analytics could also be applied to analyze the text data to find out what other types of support might be helpful for these organizations. The research of these topics will help the public better understand the challenges and threats COVID-19 has brought to vulnerable populations and community-based agencies. Additionally, the SDFA and the TORR should consider following up on the non-responders if possible, to reduce the non-response bias of this survey.
+
+
+# Conclusion
+This paper used R and R packages to perform data visualization and basic descriptive analysis on the data of "Agency Survey Results on COVID-19 Recovery and Rebuild” from the City of Toronto's Open Data Portal to understand how the community agencies have been affected by COVID-19 and what supports they need the most to survive the second wave. The survey, the dataset, and some potential bias have also been discussed. The results showed that over 70% of the respondents had to temporarily close down or adjust services because of the ongoing pandemic, and public health guidance is the most needed support for community agencies to survive the second wave.
+
+
+
+
+
+
+
+\newpage
+
+# References
+
+
